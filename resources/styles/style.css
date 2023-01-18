@@ -1,9 +1,14 @@
 /*  universal styles */
 
+* {
+/*     margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
 html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -14,11 +19,6 @@ body {
     color: seashell;
     background-color: black;
     text-align: center;
-    
-}
-
-h1 {
-    font-size: 32px;
 }
 
 #featured-tea, #locations {
@@ -171,9 +171,13 @@ footer address {
     padding-top: 10px;
 }
 
-footer p {
+#copyright {
     text-align: left;
     margin-left: 20px;
+}
+
+#company-name {
+    font-size: 32px;
 }
 
 /*  media query */
