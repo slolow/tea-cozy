@@ -132,6 +132,7 @@ figcaption {
 #locations {
     background-image: url("../images/img-locations-background.jpg");
     background-size: cover;
+    background-position: center center; 
     height: 575px;
 }
 
